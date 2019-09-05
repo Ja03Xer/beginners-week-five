@@ -9,6 +9,10 @@
     <title>Starter Template for Bootstrap</title>
 
     <!-- ADD BOOTSTRAP CORE HERE!!!! -->
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      crossorigin="anonymous"
+
 
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
@@ -25,13 +29,13 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="link.html">Link</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Another Link</a>
+            <a class="nav-link" href="anotherlink.html">Another Link</a>
           </li>
         </ul>
       </div>
@@ -43,25 +47,65 @@
         <h1>Bootstrap starter template</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
-
+      <div class="row">
+        <div class="col-sm">
+      fashion list column 1
+        </div>
+        <div class="col-sm">
+      fashion list column 2
+        </div>
+      </div>
       <!-- columns -->
       <div class="row">
         <div class="col-sm">
-          <!-- add an image here -->
-          One of three columns
+          <!-- image of fashion-aspot-mobile-es -->
+          <img src="images/fashion-aspot-mobile-es.jpg">
         </div>
         <div class="col-sm">
-          <!-- add an image here -->
-          One of three columns
+          <!-- image of fashion-->
+        <img src="images/fashion.jpg">
         </div>
         <div class="col-sm">
-          <!-- add an image here -->
-          One of three columns
+          <!-- image of images-->
+        <img src="images/images.jpg">
         </div>
       </div>
-      
+      <button type="button" class="btn btn-success" data-dismiss="modal">
+        Save changes
+      </button>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/men.jpg" alt="First slide" height="1000px" width="500px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/hat.jpeg" alt="Second slide" height="1000px" width="500px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/kid.jpg" alt="Third slide" height="1000px" width="500px">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
       <!-- Add another row here -->
     </main><!-- /.container -->
+
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
